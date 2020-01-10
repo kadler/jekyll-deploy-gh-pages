@@ -2,6 +2,7 @@
 set -eux
 
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
+gem install bundler
 bundler --version
 bundle install
 bundle list | grep "jekyll ("
